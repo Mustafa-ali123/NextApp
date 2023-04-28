@@ -1,0 +1,87 @@
+.contained {
+  margin-top: 15vh;
+  background-color: #e9ecef;
+  color: black;
+  width: 48vh;
+  height: 60vh;
+  box-shadow: rgb(98, 93, 93) 3px 20px 15px 0.1px;
+  border: #000814 1px solid;
+}
+
+.contained .btns {
+  width: 8vh;
+}
+
+.contained .span {
+  margin-right: 5vh;
+}
+
+.contained .btns:hover {
+  background-color: #1a659e;
+  color: white;
+}
+
+.option p {
+  font-weight: bolder;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  background-color: #253237;
+  height: 35px;
+  color: #e9ecef;
+}
+.option {
+  width: 150vh;
+}
+
+.option p span {
+  width: 80vh;
+}
+
+.control-input {
+  height: 8vh;
+  width: 30vh;
+
+}
+.but{
+  margin-left: 88vh;
+  width: 35vh;
+}
+.button {
+  width: 40vh;
+}
+.result{
+  position: fixed;
+  left: 92vh;
+  top: 40vh;
+  width: 27vh;
+  text-align: center;
+  height: 20vh;
+  background-color: #000814;
+  color: white;
+  border-radius: 10px;
+}
+.result span{
+  font-weight: bolder;
+  font-size: 16px
+}
+.result h3{
+color: yellow;
+}
+@media(max-width: 676px) {
+  .result{
+    position: fixed;
+    left: 15vh;
+    top: 40vh;
+  }
+  .option {
+    width: 50vh;
+  }
+  .but{
+    margin-left: 8vh;
+    width: 40vh;
+  }
+  .option p span {
+    width: 30vh;
+  }
+}
